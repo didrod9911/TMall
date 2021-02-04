@@ -1,0 +1,29 @@
+.outer {
+	display: table;
+	position: relative;
+	height: -webkit-fill-available;
+	width: 100%;
+}
+
+.middle {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.inner {
+	align-items: center;
+	align-content: center;
+	align-self: center;
+	margin-left: auto;
+	margin-right: auto;
+	width: 400px;
+}
+.padding-table {
+	width: -webkit-fill-available;
+}
+.padding-table td {
+	padding: 7px;
+}
+::-webkit-scrollbar {
+    width: 12px;
+}
